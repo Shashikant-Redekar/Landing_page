@@ -1,0 +1,42 @@
+.Header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameLogo{
+    display:flex;
+}
+
+.name{
+    height: 150px;
+}
+
+.logo{
+    height: 150px;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+.about{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.res{
+    padding-left: 10px;
+    padding-right: 10px;
+}
