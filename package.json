@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "google-reviews-widget": "^1.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-google-reviews": "^1.7.4",
     "react-scroll": "^1.9.3",
     "sass": "^1.86.3"
   },

@@ -13,7 +13,10 @@ const Header = function() {
             </div>
             <div className="nav">
                 <p>
-                <Link activeClass="active" smooth spy to="about" className='about' offset='0'>About</Link>
+                <Link activeClass="home" smooth spy to="home" className='home' offset='0'>Home</Link> 
+                </p>
+                <p>
+                <Link activeClass="about" smooth spy to="about" className='about' offset='0'>About</Link>
                 </p>
                 <p>
                 <Link activeClass="menu" smooth spy to="menu" className='menu' offset='0'>Menu</Link>
