@@ -1,12 +1,13 @@
-import GoogleReviewsWidget from "google-reviews-widget"
+import GoogleReviewsWidget from "google-reviews-widget";
+import '../../Styling/reviews.scss'
 
 function Reviews() {
   return (
-    <div>
+    <div className="reviews">
       <header>
-        <h1>Google Reviews Widget</h1>
+        <h1 className="vos">Voices of Satisfaction</h1>
       </header>
-      <GoogleReviewsWidget instanceId="QXJYYdTRxzfy5nVR1R2v" />
+      <GoogleReviewsWidget instanceId="QXJYYdTRxzfy5nVR1R2v" className='riv'/>
     </div>
   )
 }

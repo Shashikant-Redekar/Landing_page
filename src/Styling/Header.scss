@@ -2,6 +2,9 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    font-family: oswald;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .nameLogo{
@@ -24,25 +27,34 @@
 .home{
     padding-left: 10px;
     padding-right: 10px;
-    height: 15px;
+    color:#008037;
+    cursor: pointer;
 }
 
 .about{
     padding-left: 10px;
     padding-right: 10px;
+    color:#008037;
+    cursor: pointer;
 }
 
 .menu{
     padding-left: 10px;
     padding-right: 10px;
+    color:#008037;
+    cursor: pointer;
 }
 
 .contact{
     padding-left: 10px;
     padding-right: 10px;
+    color:#008037;
+    cursor: pointer;
 }
 
-.res{
+.review{
     padding-left: 10px;
     padding-right: 10px;
+    color:#008037;
+    cursor: pointer;
 }

@@ -1,8 +1,29 @@
+.contacts{
+    background-color: #F5E6C8;
+    font-family: oswald;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.conh{
+    color: #2E7D32;
+    font-size: 32px;
+    margin: 0;
+}
+
 .conlog{
     width: 50px;
 }
 
-.cmil{
+.cmi{
     display: flex;
     justify-content: space-between;
+    color:#5C4B3B;
+    font-size:  18px;
+}
+
+.map{
+    display:flex;
+    color:#5C4B3B;
+    font-size:  18px;
 }

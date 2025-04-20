@@ -1,9 +1,14 @@
 .homeb{
-    background: linear-gradient(to left, brown, lightgreen);
+    background-color: #FFF8E1;
     display: flex;
     justify-content: space-around;
     padding: 10px;
     align-items: center;
+    font-family: "Noto Serif Devanagari";
+    font-weight: 500;
+    color: #2E7D32;
+    font-size: x-large;
+    border-bottom: 1px solid #DCCBAA;
 }
 
 .homePic{
@@ -12,4 +17,15 @@
 
 .tag{
     align-items: center;
+}
+
+.bres{
+    font-family: oswald;
+    font-size: 18px;
+    height: 32px;
+    width: 250px;
+    border-radius: 12px;
+    color: white;
+    background-color: #2E7D32;
+    cursor: pointer;
 }

@@ -22,10 +22,10 @@ const Header = function() {
                 <Link activeClass="menu" smooth spy to="menu" className='menu' offset='0'>Menu</Link>
                 </p>
                 <p>
-                <Link activeClass="contact" smooth spy to="contact" className='contact' offset='0'>Contact</Link>
+                <Link activeClass="review" smooth spy to="review" className='review' offset='0'>Reviews</Link>
                 </p>
                 <p>
-                <Link activeClass="res" smooth spy to="res" className='res ' offset='0'>Reservation</Link>
+                <Link activeClass="contact" smooth spy to="contact" className='contact ' offset='0'>Contacts</Link>
                 </p>
             </div>
         </div>

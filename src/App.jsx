@@ -15,7 +15,7 @@ function App() {
       <section id='home'><Home /></section>
       <section id='about'><About /></section>
       <section id='menu'><Menu /></section>
-      <section id='reviews'><Reviews /> </section>
+      <section id='review'><Reviews /> </section>
       <section id='contact'><Contacts /></section>
     </React.Fragment>
   )
