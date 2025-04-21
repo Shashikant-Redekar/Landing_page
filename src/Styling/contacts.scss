@@ -3,12 +3,15 @@
     font-family: oswald;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 .conh{
     color: #2E7D32;
     font-size: 32px;
     margin: 0;
+    text-decoration: underline #2E7D32;
+    margin-bottom: 10px;
 }
 
 .conlog{
@@ -20,10 +23,51 @@
     justify-content: space-between;
     color:#5C4B3B;
     font-size:  18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2E7D32;;
 }
 
 .map{
     display:flex;
     color:#5C4B3B;
     font-size:  18px;
+    padding-top: 10px;
+}
+
+.mapt{
+    padding-right: 20px;
+}
+
+.num{
+    color:#5C4B3B;
+    text-decoration: none;
+}
+
+.tagi{
+    line-height: 1.2;
+}
+
+@media (max-width: 480px){
+    .cmi{
+        display: grid;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .map{
+        display: grid;
+        margin: 5px;
+        padding-top: 0;
+    }
+    .call{
+        border-bottom: 1px solid #2E7D32;
+        margin: 5px;
+    }
+    .mail{
+        border-bottom: 1px solid #2E7D32;
+        margin: 5px;
+    }
+    .inst{
+        border-bottom: 1px solid #2E7D32;
+        margin: 5px;
+    }
 }

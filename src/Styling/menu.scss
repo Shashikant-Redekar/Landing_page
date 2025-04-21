@@ -13,7 +13,8 @@
     display: grid;
     width: 650px;
     height: 650px;
-    background-color: #EF6C00;
+    background-color: white;
+    border: 1px solid #DCCBAA;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -29,6 +30,7 @@
     width: 550px;
     height: 550px;
     border-radius: 20px;
+    border:1px solid black;
 }
 
 .mainm{
@@ -37,17 +39,40 @@
     padding-left: 20px;
     padding-right: 20px;
     border-bottom: 1px solid #DCCBAA;
+    padding-bottom: 10px;
 }
 
 .menuh{
     margin:0;
     color: #2E7D32;
     font-size: 32px;
+    text-decoration: underline #2E7D32;
+    margin-bottom: 10px;
 }
 
 .fmenu{
     margin:0;
     color: #2E7D32;
     font-size: 23px;
+}
+
+@media (max-width: 480px){
+    .scrollb{
+        width: 24px;
+    }
+    .imag{
+        width: 170px;
+        height: 150px;
+    }
+    .imgd{
+        width: 250px;
+        height: 250px;
+    }
+    .dname{
+        font-size: 16px;
+    }
+    .fmenu{
+        font-size: 18px;
+    }
 }
 

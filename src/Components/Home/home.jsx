@@ -8,13 +8,13 @@ const Home = function() {
                 <img src={homePic} className='homePic'/>
             </div>
             <div className='tag'>
-                <p>🌿 शुद्ध शाकाहारी स्वाद 🌿</p>
-                <p>ताजे, पौष्टिक आणि रुचकर 🌱</p>
-                <p>आमचं प्रेम, तुमच्या ताटात 🍽️</p>
-                <button className='bres'>Reserve a Table</button>
+                <p className='tagi'>🌿 शुद्ध शाकाहारी स्वाद 🌿</p>
+                <p className='tagi'>ताजे, पौष्टिक आणि रुचकर </p>
+                <p className='tagi'>आमचं प्रेम, तुमच्या ताटात 🍽️</p>
+                <a href='tel:+91 8526371111'><button className='bres'>Reserve a Table</button></a>
             </div>
         </div>
     )
-}
+} 
 
 export default Home;

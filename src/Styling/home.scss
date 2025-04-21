@@ -13,6 +13,8 @@
 
 .homePic{
     width: 100%;
+    border: 1px solid black;
+    border-radius: 12px;
 }
 
 .tag{
@@ -23,9 +25,31 @@
     font-family: oswald;
     font-size: 18px;
     height: 32px;
-    width: 250px;
+    width: 200px;
     border-radius: 12px;
     color: white;
     background-color: #2E7D32;
     cursor: pointer;
+}
+
+@media (max-width:1054px){
+    .homePic{
+        width:80%;
+    }
+    .homeb{
+        font-size: larger;
+    }
+    
+}
+
+@media (max-width: 520px){
+    .homeb{
+        display:grid;
+    }
+    .homePic{
+        width: 100%
+    }
+    .tag{
+        font-size: 18px;
+    }
 }

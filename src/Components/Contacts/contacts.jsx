@@ -9,24 +9,24 @@ const Contacts = function(){
         <div className='contacts'>
             <h1 className='conh'>Contact Us</h1>
             <div className='cmi'>
-                <div>
+                <div className='call'>
                     <img src={call} className='conlog'/>
                     <p>Call us -</p>
-                    <p>+91 8526371111</p>
+                    <a href="tel:918526371111" className='num'>+91 8526371111</a>
                 </div>
-                <div>
+                <div className='mail'>
                     <img src={mail} className='conlog'/>
                     <p>Write us-</p>
-                    <p>akshayredekar162@gamil.com</p>
+                    <a href='mailto:akshayredekar162@gamil.com' className='num'>akshayredekar162@gamil.com</a>
                 </div>
-                <div>
+                <div className='inst'>
                     <img src={insta} className='conlog'/>
                     <p>Follow us on Instagram -</p>
-                    <p>https://www.instagram.com/hotel.sukoon_sagar</p>
+                    <a href='https://www.instagram.com/hotel.sukoon_sagar' className='num'>https://www.instagram.com/hotel.sukoon_sagar</a>
                 </div>
             </div>
             <div className='map'>
-                <div>
+                <div className='mapt'>
                     <img src={map} className='conlog'/>
                     <p>Location -</p>
                     <p>Waki, Chakan, Maharashtra 410501</p>

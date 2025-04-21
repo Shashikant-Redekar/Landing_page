@@ -24,6 +24,10 @@
     justify-content: space-around;
 }
 
+.navl{
+    display: none;
+}
+
 .home{
     padding-left: 10px;
     padding-right: 10px;
@@ -57,4 +61,36 @@
     padding-right: 10px;
     color:#008037;
     cursor: pointer;
+}
+
+.ham{
+    display:none;
+}
+
+@media (max-width: 805px){
+    .ham{
+        display: contents;
+    }
+    .nav{
+        display: none;
+    }
+    .navl{
+        display: inline;
+        position: fixed;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        background-color: bisque;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 520px){
+    .name{
+        height:70px;
+    }
+    .logo{
+        height: 70px
+    }
 }

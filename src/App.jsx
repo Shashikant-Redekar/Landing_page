@@ -8,7 +8,6 @@ import Contacts from './Components/Contacts/contacts';
 import React from 'react'
 
 function App() {
-
   return (
     <React.Fragment>
       <Header />
